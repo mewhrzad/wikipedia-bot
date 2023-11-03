@@ -1,4 +1,4 @@
-# wikipedia_bot
+# wikipedia-bot
 simple telegram-bot written in python using [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot), [wikipedia API](https://api.wikimedia.org) that takes input from text_message and inline_query and searches in Wikipedia and returns the desired page URLs
 ## installation
 download project, using cmd or terminal type :

@@ -6,6 +6,7 @@ download project, using cmd or terminal type :
 pip install req.txt
 ```
 requirements : ```python-telegram-bot, python-dotenv, aiohttp```
+
 then open bot_token.env file and replace your bot token with <YOUR_API_TOKEN> and save.
 
 installation finished now you can run your wikipedia bot :)

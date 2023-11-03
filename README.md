@@ -14,5 +14,8 @@ installation finished now you can run your wikipedia bot :)
 python3 bot.py
 ```
 
+## Sample active bot
+[ربات ویکی پدیا فارسی](https://t.me/fawikipedia_bot)
+
 ## As usual, special thanks to
 - [ErfanTech](https://github.com/ErfanTech)

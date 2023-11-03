@@ -15,7 +15,7 @@ python3 bot.py
 ```
 
 ## Sample active bot
-[ربات ویکی پدیا فارسی](https://t.me/fawikipedia_bot)
+Telegram URL -> [ربات ویکی پدیا فارسی](https://t.me/fawikipedia_bot)
 
 ## As usual, special thanks to
 - [ErfanTech](https://github.com/ErfanTech)

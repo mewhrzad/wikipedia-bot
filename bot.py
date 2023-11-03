@@ -1,5 +1,5 @@
-from text_messages import Message
-from inline_query import inline_query
+import logging
+from handlers import *
 from telegram import Update, __version__ as TG_VER
 import os
 from dotenv import load_dotenv
@@ -22,10 +22,14 @@ from telegram.ext import (
     ContextTypes,
     MessageHandler,
     filters,
-    CallbackQueryHandler,
     InlineQueryHandler,
 )
 
+logging.basicConfig(
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
+)
+
+logger = logging.getLogger(__name__)
 async def start(update : Update , context : ContextTypes.DEFAULT_TYPE)->None:
     await update.message.reply_markdown("""سلام به ربات ویکی پدیا خوش اومدی
 

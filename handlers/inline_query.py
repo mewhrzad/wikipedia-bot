@@ -1,7 +1,7 @@
 from uuid import uuid4
 from telegram import InlineQueryResultArticle, InputTextMessageContent, __version__ as TG_VER, Update
 from telegram.ext import ContextTypes
-from wiki import search
+from .wiki import search
 
 async def inline_query(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     query = update.inline_query.query

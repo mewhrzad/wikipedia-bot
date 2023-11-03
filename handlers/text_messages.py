@@ -1,4 +1,4 @@
-from wiki import search
+from .wiki import search
 from telegram import Update,__version__ as TG_VER
 from telegram.ext import ContextTypes
 
